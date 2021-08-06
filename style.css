@@ -8,4 +8,85 @@
 }
 
 /* Fill your code*/
+body{
+    background-color: rgb(166, 88, 197);
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background-color:rgb(68, 45, 28);
+    
+}
+.logo>img{
+    margin-top: -30px;
+    margin-left: 538px;
+    height: 80px;
+    width: 180px;
+}
+.oval {
+    display: flex;
+    height: 135px;
+    width: 250px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: 502px ;
+    box-shadow: 0 0 10px 0 black;
+}
 
+.oval>p{
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      color: whitesmoke;
+      margin-top: 85px;
+      margin-left: 78px;
+  }
+
+.box1,.box2{
+    height:200px;
+    width:240px;
+}
+.prices{
+    margin-left: 60px;
+    margin-top: 80px
+}
+.bill{
+    margin-top: -210px;
+    margin-left: 900px;
+}
+
+.down{
+    height: 80px;
+    width: 100%;
+    background-color:rgb(68, 45, 28);
+    margin-top: 40px;
+}
+ 
+#layer1{
+    width: 245px;
+    visibility: hidden;
+}
+
+#layer2{
+    width: 200px;
+    left: 40px;
+    visibility: hidden;
+}
+
+#layer3{
+    width: 160px;
+    left: 60px;
+    visibility: hidden;
+}
+
+#layer4{
+    width: 120px;
+    left: 80px;
+    visibility: hidden;
+}
+
+#layer5{
+    width: 80px;
+    left: 100px;
+    visibility: hidden;
+}
