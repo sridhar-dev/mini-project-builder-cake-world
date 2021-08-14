@@ -42,51 +42,161 @@ body{
       margin-left: 78px;
   }
 
-.box1,.box2{
-    height:200px;
-    width:240px;
-}
-.prices{
-    margin-left: 60px;
-    margin-top: 80px
-}
-.bill{
-    margin-top: -210px;
-    margin-left: 900px;
+
+
+
+.middlepart{
+    position: relative;
+   
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.down{
-    height: 80px;
-    width: 100%;
-    background-color:rgb(68, 45, 28);
-    margin-top: 40px;
+.prices img{
+    position: relative;
+    top: 120px;
+    left: 100px;
 }
- 
-#layer1{
-    width: 245px;
+
+.price{
+    position: relative;
+    color: white;
+    top: -140px;
+    left: 200px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', cursive;
+}
+
+ul{
+    position: relative;
+    top: -120px;
+    left:150px;
+    list-style: none;
+}
+
+li{
+    padding: 4.5px;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#candle{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    left: 47.5%;
+    top: 22%;
     visibility: hidden;
+}
+
+.cakebuild{
+    position: relative;
+    top: 150px
+}
+
+#layer1{
+
+    border-radius: 10px;
+    width: 200px;
+    height: 5px;
+    visibility: hidden;
+    margin: auto;
+    padding: 20px;
 }
 
 #layer2{
-    width: 200px;
-    left: 40px;
+
+    border-radius: 10px;
+    width: 170px;
+    height: 5px;
     visibility: hidden;
+    margin: auto;
+    padding: 20px;
 }
 
 #layer3{
-    width: 160px;
-    left: 60px;
+    border-radius: 10px;
+    width: 140px;
+    height: 5px;
     visibility: hidden;
+    margin: auto;
+    padding: 20px;
 }
 
 #layer4{
-    width: 120px;
-    left: 80px;
+    width: 110px;
+    border-radius: 10px;
+    height: 5px;
     visibility: hidden;
+    margin: auto;
+    padding: 20px;
 }
 
 #layer5{
+    
     width: 80px;
-    left: 100px;
+    height: 5px;
     visibility: hidden;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.billboard img{
+    position: relative;
+    top: 110px;
+    right: 20px;
+    font-size: 0.8rem;
+}
+.billheading{
+    position: relative;
+    top: -140px;
+    right: -90px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.bill{
+    position: relative;
+    top: 10px;
+    right: -50px;
+    color: white; 
+    margin-bottom: 5px; 
+    font-family: 'Architects Daughter', cursive; 
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color:rgb(68, 45, 28);
+    justify-content: space-between;
+}
+
+.footer input[type = button]{
+    position: relative;
+    top: 30px;
+    background-color: rgb(166, 88, 197);
+    color: white;
+    width: auto;
+    height: 35px;
+    font-size: 1.2em;
+    padding: 5px;
+    border-radius: 10%;
+    margin-left: 100px;
+    font-family: 'Acme', sans-serif;
+}
+
+input[type = button]:hover
+{
+    cursor: pointer;
+}
+#buybtn{
+    background-color: chartreuse;
+    color: black;
 }
